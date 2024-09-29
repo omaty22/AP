@@ -1,0 +1,103 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(219, 206, 206);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.weatherform{
+    margin-top: 20px;
+}
+
+.cityinput{
+   padding: 10px;
+   font-size: 2rem;
+   font-weight: bold;
+   border: 2px solid #2a2525;
+   border-radius: 10px;
+   margin: 10px;
+   width: 300px;
+}
+
+button[type="submit"]{
+    padding: 10px 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    color: whitesmoke;
+    background-color:rgb(105, 147, 195);
+}
+
+button[type="submit"]:hover{
+    background-color: rgb(95, 133, 177);
+    color: white;
+}
+
+.card{
+    background: linear-gradient(180deg, #d9bf76, #32598f);
+    padding: 50px;
+    box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.5);
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+h1{
+    font-size: 3rem;
+    color: #2a2525;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+p{
+    font-size: 1.5rem;
+    color: #2a2525;
+    margin: 5px 0;
+}
+
+.citydisplay{
+    font-size: 4rem;
+    font-weight: bolder;
+    color: #2a2525;
+    margin-bottom: 25px;
+}
+
+.tempdisplay{
+    font-size: 2.7rem;
+    font-weight:bold;
+    color: #2a2525;
+    margin-bottom: 25px;
+}
+
+.humiditydisplay{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2a2525;
+    margin-bottom: 25px;
+}
+
+.descdisplay{
+    font-size:1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    margin-bottom: 55px;
+}
+
+.weatheremoji{
+    font-size: 10rem;
+    margin-bottom: 0;
+}
+
+.error{
+    font-size: 2rem;
+    color: rgb(250, 250, 250);
+    margin-top: 20px;
+}
